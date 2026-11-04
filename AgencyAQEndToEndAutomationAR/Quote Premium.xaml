@@ -142,10 +142,10 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="449.6,48" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="449.6,48" sap2010:WorkflowViewState.IdRef="CommentOut_3">
       <ui:CommentOut.Body>
-        <Sequence DisplayName="Ignored Activities" sap2010:WorkflowViewState.IdRef="Sequence_96">
-          <Sequence DisplayName="Quote Premium" sap:VirtualizedContainerService.HintSize="537.6,4510.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+        <Sequence DisplayName="Ignored Activities" sap2010:WorkflowViewState.IdRef="Sequence_98">
+          <Sequence DisplayName="Quote Premium" sap:VirtualizedContainerService.HintSize="537.6,4510.4" sap2010:WorkflowViewState.IdRef="Sequence_97">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Int32" Name="RowNumber" />
               <Variable x:TypeArguments="sd:DataTable" Name="DT_QP" />
