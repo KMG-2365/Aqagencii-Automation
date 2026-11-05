@@ -563,7 +563,7 @@
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <Sequence sap:VirtualizedContainerService.HintSize="483.20000000000005,1187.2" sap2010:WorkflowViewState.IdRef="Sequence_120">
+                            <Sequence sap:VirtualizedContainerService.HintSize="483.20000000000005,1921.6" sap2010:WorkflowViewState.IdRef="Sequence_120">
                               <Sequence.Variables>
                                 <Variable x:TypeArguments="x:String" Name="Question1Yes" />
                                 <Variable x:TypeArguments="x:String" Name="Question1No" />
@@ -1097,6 +1097,7 @@
                                   </If.Else>
                                 </If>
                               </Sequence>
+                              <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="449.6,122.4" sap2010:WorkflowViewState.IdRef="Delay_1" />
                               <Sequence DisplayName="QUESTION2" sap:VirtualizedContainerService.HintSize="449.6,56.8" sap2010:WorkflowViewState.IdRef="Sequence_198">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -1302,6 +1303,7 @@
                                   </If.Else>
                                 </If>
                               </Sequence>
+                              <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="449.6,122.4" sap2010:WorkflowViewState.IdRef="Delay_2" />
                               <Sequence DisplayName="QUESTION3" sap:VirtualizedContainerService.HintSize="449.6,56.8" sap2010:WorkflowViewState.IdRef="Sequence_492">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -1507,6 +1509,7 @@
                                   </If.Else>
                                 </If>
                               </Sequence>
+                              <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="449.6,122.4" sap2010:WorkflowViewState.IdRef="Delay_3" />
                               <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="449.6,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_11">
                                 <ui:CommentOut.Body>
                                   <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="483.2,108" sap2010:WorkflowViewState.IdRef="Sequence_491">
@@ -4710,6 +4713,7 @@
                                   </If.Else>
                                 </If>
                               </Sequence>
+                              <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="449.6,122.4" sap2010:WorkflowViewState.IdRef="Delay_4" />
                               <Sequence DisplayName="QUESTION5" sap:VirtualizedContainerService.HintSize="449.6,56.8" sap2010:WorkflowViewState.IdRef="Sequence_529">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -4915,6 +4919,7 @@
                                   </If.Else>
                                 </If>
                               </Sequence>
+                              <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="449.6,122.4" sap2010:WorkflowViewState.IdRef="Delay_5" />
                               <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Screenshot - Invoke Workflow File (Screenshot.xaml)" sap:VirtualizedContainerService.HintSize="449.6,56.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_18" UnSafe="False" WorkflowFileName="Screenshot.xaml">
                                 <ui:InvokeWorkflowFile.Arguments>
                                   <InArgument x:TypeArguments="x:String" x:Key="in_fileName">
@@ -7965,6 +7970,7 @@
                                   </If.Else>
                                 </If>
                               </Sequence>
+                              <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="449.6,122.4" sap2010:WorkflowViewState.IdRef="Delay_6" />
                               <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Screenshot - Invoke Workflow File (Screenshot.xaml)" sap:VirtualizedContainerService.HintSize="449.6,56.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_15" UnSafe="False" WorkflowFileName="Screenshot.xaml">
                                 <ui:InvokeWorkflowFile.Arguments>
                                   <InArgument x:TypeArguments="x:String" x:Key="in_fileName">
@@ -12834,7 +12840,7 @@
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
                               </ui:CommentOut>
-                              <Sequence DisplayName="QUESTION7" sap:VirtualizedContainerService.HintSize="590.4,1688.8" sap2010:WorkflowViewState.IdRef="Sequence_540">
+                              <Sequence DisplayName="QUESTION7" sap:VirtualizedContainerService.HintSize="449.6,56.8" sap2010:WorkflowViewState.IdRef="Sequence_540">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>

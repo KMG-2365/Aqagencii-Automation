@@ -142,7 +142,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Quote Premium" sap:VirtualizedContainerService.HintSize="537.6,4510.4" sap2010:WorkflowViewState.IdRef="Sequence_99">
+    <Sequence DisplayName="Quote Premium" sap:VirtualizedContainerService.HintSize="537.6,4510.4" sap2010:WorkflowViewState.IdRef="Sequence_101">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:Int32" Name="RowNumber" />
         <Variable x:TypeArguments="sd:DataTable" Name="DT_QP" />
